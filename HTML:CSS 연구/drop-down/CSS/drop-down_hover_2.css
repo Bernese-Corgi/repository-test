@@ -1,0 +1,26 @@
+.related-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0 0 0;
+  background: #fff;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  height: 27px;
+  overflow: hidden;
+  transition: height 400ms, padding 400ms 100ms;
+}
+
+.related-list:hover {
+  height: 147px;
+  padding: 10px 0;
+}
+
+.related-list li {
+  padding: 3px 5px 2px 5px;
+}
+
+.related-list a {
+  display: block;
+  line-height: 20px;
+  padding-left: 25px;
+}
